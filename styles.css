@@ -1,0 +1,35 @@
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #d8d2d2;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.primero,.segundo,.tercero,.cuarto{
+    background-color: aliceblue;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+.imagen{
+    width: 100%;
+    text-align: center;
+}
+.texto{
+    padding: 0px 10px;
+}
